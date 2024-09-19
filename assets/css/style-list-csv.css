@@ -1,0 +1,18 @@
+.table-csv table {
+  background-color: var(--background-table-color);
+}
+
+.list-ramais td {
+  min-width: 13vh;
+}
+
+.text-ramais {
+  padding: 6rem 0 0 0;
+}
+
+@media (max-width:767px) {
+
+   .col-ramais{
+    min-width: var(--width-min-media-components);
+  }
+}

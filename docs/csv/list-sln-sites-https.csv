@@ -1,0 +1,4 @@
+API,URL
+Link HTTP interno,http://192.168.0.1:80/index.html
+Link HTTP externo,http://ffinfiniti.com.br:80/index.html
+Link HTTP externo,https://ffinfiniti.com.br:443/index.html

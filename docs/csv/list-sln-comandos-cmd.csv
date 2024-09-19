@@ -1,0 +1,8 @@
+NOME,COMANDO
+restart remoto,shutdown -m \\192.168.0.1 -r -f -t 1
+shutdown remoto,shutdown -m \\192.168.0.1 -s -f -t 1
+enable service remote,sc \\192.168.0.1 config "Zabbix Agent" start= auto
+start service remote,sc \\192.168.0.1 start "Zabbix Agent"
+renovar licença ts,reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSLicensing /f
+renovar licença servers ts ,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\RCM\GracePeriod\LSRT... (Excluir a entrada à direita da chave L$RTMTIMEBOMB)
+add credssp,reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters" /f /v AllowEncryptionOracle /t REG_DWORD /d 2

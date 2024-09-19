@@ -1,0 +1,105 @@
+.layout h1{
+  color: var(--h1-color);
+}
+
+.col {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+  width: 80%;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem 0.5rem 2rem 0.5rem;
+}
+
+.col.escada {
+  width: 20%;
+  height: auto;
+}
+
+.col.baia-vertical {
+  width: 90%;
+  height: auto;
+}
+
+.col.baia-horizontal {
+  width: 80%;
+  height: auto;
+}
+
+.cadeira-1 {
+  background: #363636;
+  border-radius: 0.8rem 0.8rem 0 0;
+  box-shadow: -10px -5px 25px 3px rgba(0,0,0,0.2);
+  width: 80%;
+  min-height: 6vh;
+  display: flex;
+  margin: 0 0 -1rem 1rem;
+}
+
+.cadeira-2 {
+  background: #363636;
+  border-radius: 0 0 0.8rem 0.8rem;
+  box-shadow: 10px 5px 25px 3px rgba(0,0,0,0.2);
+  width: 80%;
+  min-height: 6vh;
+  display: flex;
+  margin: -1rem 0 0 1rem;
+}
+
+.cadeira-3 {
+  background: #363636;
+  border-radius: 0.8rem 0 0 0.8rem;
+  box-shadow: -10px 5px 25px 3px rgba(0,0,0,0.2);
+  min-width: 0.5vh;
+  min-height: 12vh;
+  display: flex;
+  margin-right: -0.8rem;
+}
+
+.cadeira-4 {
+  background: #363636;
+  border-radius: 0 0.8rem 0.8rem 0;
+  box-shadow: 10px 5px 25px 3px rgba(0,0,0,0.2);
+  min-width: 0.5vh;
+  min-height: 12vh;
+  display: flex;
+  margin-left: -0.7rem;
+}
+
+.mesa-1 {
+  background-image: url(../../assets/img/background/wooden-texture-concept.jpg) !important;
+  box-shadow: 10px 5px 25px 3px rgba(0,0,0,0.2);
+}
+
+.mesa-2 {
+  /*background-image: url(../../assets/img/background/wooden-texture-concept.jpg);*/
+  background: #808080 !important;
+  box-shadow: 10px 5px 25px 3px rgba(0,0,0,0.2);
+  color-adjust: exact;
+}
+
+@media (max-width:767px) {
+
+  .baia-horizontal {
+    min-width: var(--width-min-media-components);
+  }
+  .baia-vertical {
+    min-width: var(--width-min-media-components);
+  }
+  .col.escada {
+    min-width: var(--width-min-media-components);
+  }
+  .col.cozinha {
+    min-width: var(--width-min-media-components);
+  }
+  .col.sala-reuniao-pequena {
+    min-width: var(--width-min-media-components);
+  }
+  .col.sala-reuniao-grande {
+    min-width: var(--width-min-media-components);
+  }
+}
