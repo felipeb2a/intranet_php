@@ -12,3 +12,10 @@ conhecimento de html e css.
 * Os arquivos docs que estão na pasta `docs` são arquivos csv onde é utilizada a função
 function > function-csv.php para exibir os dados do arquivo na pagina da intranet.
 
+## Imagens da Pagina
+
+  ![Screenshot](md/01.jpg)
+
+  ![Screenshot](md/02.jpg)
+  
+  ![Screenshot](md/03.jpg)
